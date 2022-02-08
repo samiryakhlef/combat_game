@@ -3,7 +3,7 @@
     "type": "no",
     "autoload": {
         "psr-4": {
-            "Samir\\CombatCode\\": "src/"
+            "App\\": "src/"
         }
     },
     "authors": [
@@ -12,6 +12,11 @@
             "email": "samir.yakhlef30@gmail.com"
         }
     ],
+    "require-dev": {
+        "symfony/var-dumper": "^6.0",
+        "symfony/debug-bundle": "^6.0"
+    },
     "require": {
+        "phpunit/php-timer": "^5.0"
     }
 }
